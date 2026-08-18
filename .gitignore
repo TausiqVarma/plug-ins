@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+build/
+develop-eggs/
+dist/
+.eggs/
+*.egg-info/
+*.egg
+
+# Java / Maven
+target/
+*.class
+
+# Ignore all jars and wheels to prevent bloating the repo with builds
+*.jar
+*.whl
+
+# ...EXCEPT the explicitly provided ones in the ready-to-install folder!
+!ready-to-install/*.jar
+!ready-to-install/*.whl
+
+# IDEs
+.idea/
+.vscode/
+
+# Mock data
+*.evi
+*.npy
